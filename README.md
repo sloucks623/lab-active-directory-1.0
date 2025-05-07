@@ -11,7 +11,11 @@
 This lab follows the [Myfdir Active Directory YouTube tutorial](https://www.youtube.com/@myfdir) to build a basic enterprise Active Directory environment. It simulates a small internal network using VirtualBox, with a domain controller (Windows Server 2019) and a Windows 10 client.
 
 ---
+## Executive Summary
 
+For a concise overview of this lab, see the [Executive Summary](./EXECUTIVE_SUMMARY.md).
+
+---
 ## Lab Objectives
 
 - [ ] Install and configure a Windows Server 2019 domain controller (DC01)
