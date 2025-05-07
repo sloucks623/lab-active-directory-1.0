@@ -17,6 +17,9 @@ This lab consists of four virtual machines connected in an isolated VirtualBox I
 
 These VMs simulate a Red vs Blue scenario with log correlation, GPO enforcement, and adversary simulation tooling.
 
+
+![Lab Topology](./assets/topology.png)
+
 ---
 
 ## Components & Roles
