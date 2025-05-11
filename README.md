@@ -2,6 +2,8 @@
 
 This project is a fully documented build of the **Active Directory Home Lab** tutorial series by **MyDFIR** on YouTube. The goal is to simulate a real-world enterprise AD environment using VirtualBox, providing hands-on experience with domain setup, network configuration, user management, and security monitoring.
 
+> 🎥 [Watch the full YouTube series by MyDFIR](https://www.youtube.com/watch?v=5OessbOgyEo)
+
 ---
 
 ## 🎯 Purpose
@@ -12,13 +14,14 @@ This lab also serves as a portfolio project to **demonstrate to hiring managers*
 
 ---
 
-## 📺 Tutorial Reference
+## 📘 Table of Contents
 
-This lab follows the full YouTube series:
-
-> **[Active Directory Home Lab (YouTube) — by MyDFIR](https://www.youtube.com/watch?v=5OessbOgyEo)**  
-> Part 0 – Intro + Tools  
-> Parts 1–5 cover domain setup, NAT, users/OUs, client join, monitoring, and attack simulation.
+- [Part 0: Intro & Diagram Planning](./part0_intro.md)
+- [Part 1: Domain Controller Setup](./part1_domain-controller.md)
+- [Part 2: NAT & RAS](./part2_nat-setup.md)
+- [Part 3: Users & OUs](./part3_users-and-ous.md)
+- [Part 4: Client Machine Join](./part4_client-join-domain.md)
+- [Part 5: Monitoring & Simulations](./part5_monitoring-and-attacks.md)
 
 ---
 
@@ -37,19 +40,9 @@ This lab follows the full YouTube series:
 
 ---
 
-## 🗂️ Project Structure
+## 🖼️ Lab Topology Diagram
 
-```plaintext
-lab-active-directory-1.0/
-│
-├── assets/
-│   └── ad-lab1-topology.drawio      # Original editable diagram
-│   └── ad-lab1-topology.png         # Exported image for README
-│
-├── part1_domain-controller.md
-├── part2_nat-setup.md
-├── part3_users-and-ous.md
-├── part4_client-join-domain.md
-├── part5_monitoring-and-attacks.md
-│
-└── README.md                        # This file
+> *Diagram created using draw.io – coming soon.*
+
+```markdown
+![Active Directory Lab Topology](./assets/ad-lab1-topology.png)
