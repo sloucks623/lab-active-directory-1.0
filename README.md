@@ -8,7 +8,7 @@ This project is a fully documented build of the **Active Directory Home Lab** tu
 
 ## 🎯 Purpose
 
-As a cybersecurity student, I built this lab to deepen my understanding of Windows domain environments and Active Directory. Every step follows enterprise-style practices — from configuring NAT and DNS to simulating attacks — to prepare me for real-world IT and security roles.
+As a cybersecurity student, I built this lab to deepen my understanding of Windows domain environments and Active Directory. Every step follows enterprise-style practices — from configuring NAT and DNS to simulating attacks — to prepare me for real-world IT and security roles. 
 
 This lab also serves as a portfolio project to **demonstrate to hiring managers** that I can independently plan, configure, troubleshoot, and document an enterprise-style AD environment.
 
