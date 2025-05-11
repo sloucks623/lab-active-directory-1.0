@@ -12,6 +12,7 @@ As a cybersecurity student, I built this lab to deepen my understanding of Windo
 
 This lab also serves as a portfolio project to **demonstrate to hiring managers** that I can independently plan, configure, troubleshoot, and document an enterprise-style AD environment.
 
+
 ---
 
 ## 📘 Table of Contents
