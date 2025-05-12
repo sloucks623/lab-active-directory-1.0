@@ -29,7 +29,7 @@ I’m currently following a video tutorial series and building out each part ste
 - Joining Windows 10 to the domain
 - Simulating attacks using Kali Linux
 - Testing detections and logging with built-in tools
-
+- Possible integration of Atomic Red Team four testing
 ---
 
 ## Why I’m Building This Lab
