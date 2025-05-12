@@ -76,3 +76,16 @@ Cybersecurity Student | WGU | Navy Veteran
 **Status:** In Progress  
 **Current Focus:** Troubleshooting Win10 and Kali installs  
 **Next Step:** Finalize OS installations and verify clean boots
+
+---
+
+## Troubleshooting Log
+
+This section tracks issues I’ve encountered while building the lab and what I did (or plan to do) to fix them.
+
+- **[05/12/2025]** Windows 10 installation launched but not yet verified complete. ISO loaded inside VirtualBox; need to check post-install boot.
+- **[05/12/2025]** Kali Linux install started but needs confirmation. Possibly missing guest additions or network setup.
+- **[05/12/2025]** Draw.io diagram effort paused — current version cut off content when saved. Will rebuild from screenshot with clean layout tonight.
+- **[05/12/2025]** No working NAT/isolated network tested yet. This will be focus after OS installs are confirmed.
+
+*More entries will be added as lab development continues.*
