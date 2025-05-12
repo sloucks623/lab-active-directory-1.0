@@ -54,3 +54,25 @@ More updates and screenshots will be added soon.
 Steven Loucks  
 Cybersecurity Student | WGU | Navy Veteran  
 [stevenloucks.tech](https://stevenloucks.tech)
+
+---
+
+## Lab Build Checklist (Work in Progress)
+
+- [x] Install VirtualBox
+- [ ] Create isolated network
+- [~] Install Windows Server (DC) – *Not started*
+- [~] Install Windows 10 – *In progress; ISO loaded but setup not completed*
+- [~] Install Kali Linux – *In progress; install launched but unverified*
+- [ ] Promote Server to domain controller
+- [ ] Join Windows 10 to domain
+- [ ] Create users, OUs, and GPOs
+- [ ] Test login + Group Policy
+- [ ] Capture logs or screenshots
+- [ ] Add notes or errors here as needed...
+
+---
+
+**Status:** In Progress  
+**Current Focus:** Troubleshooting Win10 and Kali installs  
+**Next Step:** Finalize OS installations and verify clean boots
