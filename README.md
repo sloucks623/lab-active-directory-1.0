@@ -81,6 +81,11 @@ Cybersecurity Student | WGU | Navy Veteran
 
 ## Troubleshooting Log
 
+## Lab Progress Notes
+
+**[05/13/2025]**  
+This lab has been built under real-world constraints: limited bandwidth, mandatory VPN use, and unfamiliar public systems. Multiple install attempts (Windows Server, Kali) failed due to slow or unstable downloads. Library fallback was attempted, but limited hours and system layouts made progress difficult. Despite these conditions, setup is progressing steadily across multiple devices and sessions — a reflection of real-world problem solving and persistence.
+
 This section tracks issues I’ve encountered while building the lab and what I did (or plan to do) to fix them.
 
 - **[05/12/2025]** Windows 10 installation launched but not yet verified complete. ISO loaded inside VirtualBox; need to check post-install boot.
