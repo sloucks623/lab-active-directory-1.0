@@ -3,7 +3,7 @@
 This project documents my journey building an enterprise-style Active Directory environment in VirtualBox. The goal is to gain hands-on experience with domain controllers, user and group management, and network security concepts commonly used in blue team operations.
 
 I’m currently following a video tutorial series and building out each part step-by-step while documenting issues, lessons learned, and improvements along the way.
-
+ 
 ---
 
 ## Planned Lab Topology
