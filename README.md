@@ -1,49 +1,56 @@
-# 🧠 Active Directory Lab 1.0 — MyDFIR Home Lab Project
+# Active Directory Lab 1.0 (In Progress)
 
-This project is a fully documented build of the **Active Directory Home Lab** tutorial series by **MyDFIR** on YouTube. The goal is to simulate a real-world enterprise AD environment using VirtualBox, providing hands-on experience with domain setup, network configuration, user management, and security monitoring.
+This project documents my journey building an enterprise-style Active Directory environment in VirtualBox. The goal is to gain hands-on experience with domain controllers, user and group management, and network security concepts commonly used in blue team operations.
 
-> 🎥 [Watch the full YouTube series by MyDFIR](https://www.youtube.com/watch?v=5OessbOgyEo)
-
----
-
-## 🎯 Purpose
-
-As a cybersecurity student, I built this lab to deepen my understanding of Windows domain environments and Active Directory. Every step follows enterprise-style practices — from configuring NAT and DNS to simulating attacks — to prepare me for real-world IT and security roles. 
-
-This lab also serves as a portfolio project to **demonstrate to hiring managers** that I can independently plan, configure, troubleshoot, and document an enterprise-style AD environment.
-
+I’m currently following a video tutorial series and building out each part step-by-step while documenting issues, lessons learned, and improvements along the way.
 
 ---
 
-## 📘 Table of Contents
+## Planned Lab Topology
 
-- [Part 0: Intro & Diagram Planning](./part0_intro.md)
-- [Part 1: Domain Controller Setup](./part1_domain-controller.md)
-- [Part 2: NAT & RAS](./part2_nat-setup.md)
-- [Part 3: Users & OUs](./part3_users-and-ous.md)
-- [Part 4: Client Machine Join](./part4_client-join-domain.md)
-- [Part 5: Monitoring & Simulations](./part5_monitoring-and-attacks.md)
+*A network diagram will be added here once the image is finalized and exported from draw.io.*
 
 ---
 
-## 🧰 Tools & Technologies Used
+## Tools & Technologies
 
-| Tool                | Purpose                            |
-|---------------------|------------------------------------|
-| VirtualBox          | Virtual machine host               |
-| Windows Server 2019 | Domain Controller OS               |
-| Windows 10          | Client machine OS                  |
-| draw.io             | Visual topology diagram            |
-| Kali Linux          | Simulated attacker machine         |
-| Sysmon              | Event log collection               |
-| Splunk              | Log analysis and detection         |
-| Atomic Red Team     | Simulated adversary techniques     |
+- VirtualBox
+- Windows Server 2019 (Domain Controller)
+- Windows 10 (Domain-joined client)
+- Kali Linux (for testing and simulation)
+- Draw.io (topology diagramming)
 
 ---
 
-## 🖼️ Lab Topology Diagram
+## What This Lab Will Include
 
-> *Diagram created using draw.io – coming soon.*
+- Installing and configuring a domain controller (DC)
+- Creating and managing user accounts in Active Directory
+- Joining Windows 10 to the domain
+- Simulating attacks using Kali Linux
+- Testing detections and logging with built-in tools
 
-```markdown
-![Active Directory Lab Topology](./assets/ad-lab1-topology.png)
+---
+
+## Why I’m Building This Lab
+
+As a cybersecurity student at WGU and a Navy veteran, I’m building this home lab to learn by doing. I want to show hiring managers that I’m serious about transitioning into blue team work, and that I understand how enterprise systems function under the hood.
+
+---
+
+## Status
+
+**Currently working on:**  
+- Creating the VirtualBox network  
+- Installing Windows Server  
+- Drafting the topology diagram  
+
+More updates and screenshots will be added soon.
+
+---
+
+## Author
+
+Steven Loucks  
+Cybersecurity Student | WGU | Navy Veteran  
+[stevenloucks.tech](https://stevenloucks.tech)
