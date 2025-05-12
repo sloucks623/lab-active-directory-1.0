@@ -57,43 +57,23 @@ Cybersecurity Student | WGU | Navy Veteran
 
 ---
 
-## Lab Build Checklist (Work in Progress)
+## 🧰 Build Checklist
 
 - [x] Install VirtualBox
 - [ ] Create isolated network
-- [~] Install Windows Server (DC) – *Not started*
-- [~] Install Windows 10 – *In progress; ISO loaded but setup not completed*
-- [~] Install Kali Linux – *In progress; install launched but unverified*
-- [ ] Promote Server to domain controller
-- [ ] Join Windows 10 to domain
-- [ ] Create users, OUs, and GPOs
-- [ ] Test login + Group Policy
+- [ ] Install Windows Server (Domain Controller)
+- [ ] Install Windows 10 Client
+- [ ] Install Kali Linux
+- [ ] Promote Server to Domain Controller
+- [ ] Join Windows 10 to Domain
+- [ ] Create Users, OUs, and GPOs
+- [ ] Configure Sysmon and Splunk Forwarder
+- [ ] Send logs to Splunk server (192.168.10.10)
+- [ ] Test login and Group Policy
 - [ ] Capture logs or screenshots
-- [ ] Add notes or errors here as needed...
 
----
+## 🛠️ Troubleshooting Log
 
-**Status:** In Progress  
-**Current Focus:** Troubleshooting Win10 and Kali installs  
-**Next Step:** Finalize OS installations and verify clean boots
-
----
-
-
-
-## Lab Progress Notes
-
-**[05/13/2025]**  
-This lab has been built under real-world constraints: limited bandwidth, mandatory VPN use, and unfamiliar public systems. Multiple install attempts (Windows Server, Kali) failed due to slow or unstable downloads. Library fallback was attempted, but limited hours and system layouts made progress difficult. Despite these conditions, setup is progressing steadily across multiple devices and sessions — a reflection of real-world problem solving and persistence.
-
----
-## Troubleshooting Log
-This section tracks issues I’ve encountered while building the lab and what I did (or plan to do) to fix them.
-
-
-- **[05/12/2025]** Windows 10 installation launched but not yet verified complete. ISO loaded inside VirtualBox; need to check post-install boot.
-- **[05/12/2025]** Kali Linux install started but needs confirmation. Possibly missing guest additions or network setup.
-- **[05/12/2025]** Draw.io diagram effort paused — current version cut off content when saved. Will rebuild from screenshot with clean layout tonight.
-- **[05/12/2025]** No working NAT/isolated network tested yet. This will be focus after OS installs are confirmed.
-
-*More entries will be added as lab development continues.*
+- **[05/13/2025]** Windows Server ISO download failed due to network throttling.
+- **[05/13/2025]** Kali Linux installation incomplete; verification pending.
+- **[05/13/2025]** Attempted library network; encountered early closing hours and unfamiliar system layouts.
