@@ -7,8 +7,11 @@ I’m currently following a video tutorial series and building out each part ste
 ---
 
 ## Planned Lab Topology
+## Lab Topology Diagram
 
-*A network diagram will be added here once the image is finalized and exported from draw.io.*
+This diagram shows the full environment for AD Lab 1.0, based on MyDFIR's home lab design. It includes the domain controller, client, attacker, Splunk server, and network layout.
+
+![AD Lab 1.0 Topology](/diagrams/ad-lab1.0.drawio.png)
 
 ---
 
