@@ -71,6 +71,90 @@ Cybersecurity Student | WGU | Navy Veteran
 - [ ] Test login and Group Policy
 - [ ] Capture logs or screenshots
 
+---
+
+---
+
+## Server Install Notes (Student/Home Setup)
+
+This lab uses the **free evaluation version** of Windows Server — legal and fully functional for 180 days. No license or enterprise resources are required.
+
+> Note: Although the tutorial mentions Server 2019, the system may display Windows Server 2022 depending on the image used. This lab follows the 2019-based layout.
+
+### Download Link:
+[Windows Server Evaluation Center (Microsoft)](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server)
+
+- Recommended: **Windows Server 2019 ISO** (Standard Desktop Experience)
+
+---
+
+### Step-by-Step: Installing Windows Server in VirtualBox
+
+1. **Create VM**
+   - Name: `WinServer2019`
+   - Type: `Microsoft Windows`
+   - Version: `Windows 2019 (64-bit)`
+   - RAM: 4096 MB (or more)
+   - Virtual hard disk: VDI, dynamically allocated, at least 50 GB
+
+2. **Mount ISO**
+   - Go to VM settings → Storage → Add ISO under Controller: IDE
+   - Select the downloaded `.iso` file
+
+3. **Start the VM and Install**
+   - Choose: **Windows Server 2019 Standard Evaluation (Desktop Experience)**
+   - Select “Custom Install”
+   - Format the disk and proceed with installation
+
+4. **Initial Setup**
+   - After first reboot, set the local Administrator password
+   - Skip license key — the Eval version activates automatically (180-day watermark)
+
+---
+
+---
+
+## Server Install Notes (Student/Home Setup)
+
+This lab uses the **free evaluation version** of Windows Server — legal and fully functional for 180 days. No license or enterprise resources are required.
+
+> Note: Although the tutorial mentions Server 2019, the system may display Windows Server 2022 depending on the image used. This lab follows the 2019-based layout.
+
+### Download Link:
+[Windows Server Evaluation Center (Microsoft)](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server)
+
+- Recommended: **Windows Server 2019 ISO** (Standard Desktop Experience)
+
+---
+
+### Step-by-Step: Installing Windows Server in VirtualBox
+
+1. **Create VM**
+   - Name: `WinServer2019`
+   - Type: `Microsoft Windows`
+   - Version: `Windows 2019 (64-bit)`
+   - RAM: 4096 MB (or more)
+   - Virtual hard disk: VDI, dynamically allocated, at least 50 GB
+
+2. **Mount ISO**
+   - Go to VM settings → Storage → Add ISO under Controller: IDE
+   - Select the downloaded `.iso` file
+
+3. **Start the VM and Install**
+   - Choose: **Windows Server 2019 Standard Evaluation (Desktop Experience)**
+   - Select “Custom Install”
+   - Format the disk and proceed with installation
+
+4. **Initial Setup**
+   - After first reboot, set the local Administrator password
+   - Skip license key — the Eval version activates automatically (180-day watermark)
+
+---
+
+To verify which version you're using:
+```bash
+winver
+
 ## 🛠️ Troubleshooting Log
 
 - **[05/13/2025]** Windows Server ISO download failed due to network throttling.
