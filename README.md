@@ -2,7 +2,7 @@
 
 This lab simulates a basic Windows Active Directory environment for home lab training. It’s designed to demonstrate core AD setup including domain creation, DNS/DHCP configuration, user/group management, and structured documentation — all built locally using free tools.
 
-![Lab Topology](./diagram/ad-lab1-topology.drawio.png)
+![Lab Topology](./diagrams/ad-lab1.0.drawio.png)
 
 ---
 
