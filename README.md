@@ -56,14 +56,13 @@ Cybersecurity Student | WGU | Navy Veteran
 [stevenloucks.tech](https://stevenloucks.tech)
 
 ---
-
 ## 🧰 Build Checklist
 
 - [x] Install VirtualBox
 - [ ] Create isolated network
-- [ ] Install Windows Server (Domain Controller)
-- [ ] Install Windows 10 Client
-- [ ] Install Kali Linux
+- [~] Install Windows Server (Domain Controller) – *Not started*
+- [x] Install Windows 10 – *VM downloaded and installed successfully*
+- [~] Install Kali Linux – *Failed due to outdated tutorial (7-Zip method); switching to .ova method tonight*
 - [ ] Promote Server to Domain Controller
 - [ ] Join Windows 10 to Domain
 - [ ] Create Users, OUs, and GPOs
