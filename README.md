@@ -54,3 +54,5 @@ This lab simulates a basic Windows Active Directory environment for home lab tra
 ## Portfolio
 
 [← Return to my Cybersecurity Portfolio](https://stevenloucks.tech#labs)
+
+📋 [View full build checklist](./checklist.md)
