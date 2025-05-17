@@ -6,6 +6,10 @@ This lab simulates a basic Windows Active Directory environment for home lab tra
 
 ---
 
+[My Portfolio](https://stevenloucks.tech) | [LinkedIn](https://www.linkedin.com/in/steven-loucks)
+
+---
+
 ## Lab Goals
 
 - Set up a virtualized AD Domain Controller using Windows Server 2019
