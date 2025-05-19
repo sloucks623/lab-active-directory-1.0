@@ -69,9 +69,12 @@ This lab helps reinforce practical concepts like log collection, system hardenin
 
 UFW (Uncomplicated Firewall) was enabled on the Ubuntu Splunk server to restrict access to lab-only IPs. Only 192.168.10.x machines can reach ports 22 (SSH), 8000 (Splunk Web), and 8088 (HEC). This prevents accidental exposure while keeping updates and internal lab traffic functional.
 
+
 ---
 
+## Planned Expansion: Advanced Virtual Firewall
 
+To enhance realism and network segmentation in future phases, this lab may include a dedicated virtual firewall such as pfSense or a Linux bridge. This would allow deeper packet inspection, NAT management, and perimeter control beyond basic host-based rules, simulating an enterprise-level security boundary.
 
 ---
 
