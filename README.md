@@ -6,6 +6,10 @@ This lab simulates a basic Windows Active Directory environment for home lab tra
 
 ---
 
+[My Portfolio](https://stevenloucks.tech) | [LinkedIn](https://www.linkedin.com/in/steven-loucks)
+
+---
+
 ## Project Summary – AD Lab 1.0
 
 This home lab project follows the tutorial by MYFDIR and emulates a real-world Active Directory environment using VirtualBox. The goal is to gain hands-on experience with core blue team tools like Filebeat and Splunk, and to simulate attacks using Atomic Red Team.
@@ -19,10 +23,6 @@ This setup reflects a simplified but functional SOC lab stack, including:
 - A Kali Linux VM simulating red team/attacker activity
 
 This lab helps reinforce practical concepts like log collection, system hardening, threat detection, and network segmentation.
-
----
-
-[My Portfolio](https://stevenloucks.tech) | [LinkedIn](https://www.linkedin.com/in/steven-loucks)
 
 ---
 
