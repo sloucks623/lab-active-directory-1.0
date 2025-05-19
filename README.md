@@ -54,21 +54,24 @@ This lab helps reinforce practical concepts like log collection, system hardenin
 
 ## Tools Used
 
-- VirtualBox (hosted on Windows 11 Pro)
-- Windows Server 2019 ISO
-- Windows 10 ISO (client)
-- draw.io (for network diagrams)
-- Optional: Kali Linux and Ubuntu Server (future phases)
-
----
-
-
+- VirtualBox – virtualization platform for lab VM management
+- Windows Server 2019 – Active Directory Domain Controller
+- Windows 10 – domain-joined client workstation
+- Ubuntu Server 22.04 – log aggregation and analysis system
+- Filebeat – forwards system logs to Splunk
+- UFW – applied host-level firewall rules to restrict Splunk and SSH access to lab-only IPs
+- draw.io – used to create and maintain network topology diagrams
+- Kali Linux – attacker simulation system (planned for Atomic Red Team use)
 
 ---
 
 ## Lab Hardening: UFW Firewall
 
 UFW (Uncomplicated Firewall) was enabled on the Ubuntu Splunk server to restrict access to lab-only IPs. Only 192.168.10.x machines can reach ports 22 (SSH), 8000 (Splunk Web), and 8088 (HEC). This prevents accidental exposure while keeping updates and internal lab traffic functional.
+
+---
+
+
 
 ---
 
